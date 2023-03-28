@@ -1,4 +1,4 @@
-package reality
+package xtls
 
 import "github.com/xtls/xray-core/common/errors"
 

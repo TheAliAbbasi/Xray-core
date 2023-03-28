@@ -3,12 +3,11 @@ package tls
 import (
 	"context"
 	gotls "crypto/tls"
+	utls "github.com/refraction-networking/utls"
+	"google.golang.org/grpc/credentials"
 	"net"
 	"net/url"
 	"strconv"
-
-	utls "github.com/refraction-networking/utls"
-	"google.golang.org/grpc/credentials"
 )
 
 // grpcUtlsInfo contains the auth information for a TLS authenticated connection.
